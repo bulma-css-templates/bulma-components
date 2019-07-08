@@ -1,0 +1,55 @@
+doctype html
+html(lang="en")
+    head
+        title Page title
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="css/bulma/bulma-theme.css")
+        link(rel="icon" href="favicon.ico")
+    body
+        .container.is-fluid
+
+            nav
+                .container
+                    .pagination(role="navigation", aria-label="pagination")
+                        a.pagination-previous Previous
+                        a.pagination-next Next page
+                        ul.pagination-list
+                            li
+                                a.pagination-link(aria-label="Goto page 1") 1
+                            li
+                                span.pagination-ellipsis &hellip;
+                            li
+                                a.pagination-link(aria-label="Goto page 45") 45
+                            li
+                                a.pagination-link.is-current(aria-label="Page 46", aria-current="page") 46
+                            li
+                                a.pagination-link(aria-label="Goto page 47") 47
+                            li
+                                span.pagination-ellipsis &hellip;
+                            li
+                                a.pagination-link(aria-label="Goto page 86") 86
+
+
+            nav
+                .container
+                    .pagination.is-centered(role="navigation", aria-label="pagination")
+                        a.pagination-previous Previous
+                        a.pagination-next Next page
+                        ul.pagination-list
+                            li
+                                a.pagination-link(aria-label="Goto page 1") 1
+                            li
+                                span.pagination-ellipsis &hellip;
+                            li
+                                a.pagination-link(aria-label="Goto page 45") 45
+                            li
+                                a.pagination-link.is-current(aria-label="Page 46", aria-current="page") 46
+                            li
+                                a.pagination-link(aria-label="Goto page 47") 47
+                            li
+                                span.pagination-ellipsis &hellip;
+                            li
+                                a.pagination-link(aria-label="Goto page 86") 86

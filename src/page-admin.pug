@@ -1,0 +1,102 @@
+doctype html
+html(lang="en")
+    head
+        title Page title
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="css/bulma/bulma-theme.css")
+        link(rel="icon" href="favicon.ico")
+    body
+        .container.is-fluid
+
+            section.section
+                .container
+                    .columns.is-multiline
+                        .column.is-6-tablet.is-3-desktop
+                            .card
+                                .card-header
+                                    h3.card-header-title.is-inline Income
+                                        span.tag.is-success.is-pulled-right Monthly
+                                .card-content
+                                    h3.title 108,200
+                                    p Total income
+                                    p #[img(src="placeholder/icons/level-up.svg", alt="")] 82%
+
+                        .column.is-6-tablet.is-3-desktop
+                            .card
+                                .card-header
+                                    h3.card-header-title.is-inline Orders
+                                        span.tag.is-success.is-pulled-right Monthly
+                                .card-content
+                                    h3.title 128,430
+                                    p New orders
+                                    p #[img(src="placeholder/icons/level-up.svg", alt="")] 32%
+
+                        .column.is-6-tablet.is-3-desktop
+                            .card
+                                .card-header
+                                    h3.card-header-title.is-inline  Visits
+                                        span.tag.is-success.is-pulled-right Today
+                                .card-content
+                                    h3.title 81,248
+                                    p New visits
+                                    p #[img(src="placeholder/icons/level-up.svg", alt="")] 24%
+
+                        .column.is-6-tablet.is-3-desktop
+                            .card
+                                .card-header
+                                    h3.card-header-title.is-inline User activity
+                                        span.tag.is-danger.is-pulled-right Today
+                                .card-content
+                                    h3.title 2,341
+                                    p Used app more than once
+                                    p #[img(src="placeholder/icons/level-down.svg", alt="")] 42%
+
+            section.section
+                .container
+                    .columns.is-multiline
+                        .column.is-6-tablet.is-3-desktop
+                            .box
+                                .media
+                                    .media-left
+                                        figure.image.is-48x48
+                                            img(src="placeholder/icons/folder-o.svg", alt="")
+                                    .media-content.has-text-right
+                                        h3.title.is-1.has-text-info 2
+                                h4.title Projects
+                                progress.progress.is-info(role="progressbar", value="75", max="100")
+
+                        .column.is-6-tablet.is-3-desktop
+                            .box
+                                .media
+                                    .media-left
+                                        figure.image.is-48x48
+                                            img(src="placeholder/icons/users.svg", alt="")
+                                    .media-content.has-text-right
+                                        h3.title.is-1.has-text-danger 117
+                                h4.title Clients
+                                progress.progress.is-danger(role="progressbar", value="75", max="100")
+
+                        .column.is-6-tablet.is-3-desktop
+                            .box
+                                .media
+                                    .media-left
+                                        figure.image.is-48x48
+                                            img(src="placeholder/icons/file-text-o.svg", alt="")
+                                    .media-content.has-text-right
+                                        h3.title.is-1.has-text-success 248
+                                h4.title Invoices
+                                progress.progress.is-success(role="progressbar", value="75", max="100")
+
+                        .column.is-6-tablet.is-3-desktop
+                            .box
+                                .media
+                                    .media-left
+                                        figure.image.is-48x48
+                                            img(src="placeholder/icons/calendar-o.svg", alt="")
+                                    .media-content.has-text-right
+                                        h3.title.is-1.has-text-info 14
+                                h4.title Appointments
+                                progress.progress.is-info(role="progressbar", value="75", max="100")

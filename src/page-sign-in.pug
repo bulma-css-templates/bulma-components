@@ -1,0 +1,50 @@
+doctype html
+html(lang="en")
+    head
+        title Page title
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="css/bulma/bulma-theme.css")
+        link(rel="icon" href="favicon.ico")
+    body
+        .container.is-fluid
+
+            section.section
+                .container.has-text-centered
+                    .columns.is-centered
+                        .column.is-5.is-4-desktop
+                            form
+                                .field
+                                    .control
+                                        input.input(type="email" placeholder="Email")
+                                .field
+                                    .control
+                                        input.input(type="password" placeholder="Password")
+                                .field
+                                    button.button.is-primary.is-fullwidth Sign in!
+
+                                a(href="#") or sign in with Facebook
+
+            section.section
+                .container.has-text-centered
+                    .columns.is-centered
+                        .column.is-5.is-4-desktop
+                            form
+                                .field
+                                    .control
+                                        input.input(type="email" placeholder="Email")
+                                .field
+                                    .control
+                                        input.input(type="text" placeholder="Name")
+                                .field
+                                    .control                        
+                                        input.input(type="password" placeholder="Password")
+                                .field.is-grouped
+                                    .control.is-expanded
+                                        button.button.is-primary.is-outlined.is-fullwidth Sign In!
+                                    .control.is-expanded
+                                        button.button.is-primary.is-fullwidth Sign up!
+
+                                p By signing in you agree with the #[a(href="") Terms and Conditions] and #[a(href="") Privacy Policy].
