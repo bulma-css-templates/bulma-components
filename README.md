@@ -59,5 +59,7 @@ yarn build
  - [team](/src/team.pug) - [demo](https://components.bulma-css.com/team.html)
  - [testimonials](/src/testimonials.pug) - [demo](https://components.bulma-css.com/testimonials.html)
 
+<br />
+
 --- 
 Supported by [Bulma-CSS](https://bulma-css.com/)
