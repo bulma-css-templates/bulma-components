@@ -22,13 +22,13 @@ Project's source files are placed in ./src/ directory.
 
 ```
 # Install dependencies
-npm install 
+$ yarn
 
 # Run dev server with live preview (Browsersync)
-npm run watch
+$ yarn start 
 
 # Or make production build
-npm run build
+yarn build
 ```
 
 ## Components
