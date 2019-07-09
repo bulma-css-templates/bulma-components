@@ -1,10 +1,10 @@
 {
-  "name": "app",
+  "name": "bulma-components",
   "version": "1.0.0",
   "private": true,
-  "license": "UNLICENSED",
-  "author": "",
-  "description": "",
+  "license": "MIT",
+  "author": "Bulma-Css.com",
+  "description": "Open-Source Components Library for Bulma",
   "scripts": {
     "start": "npm-run-all build --parallel watch-templates watch-css browsersync",
     "deploy": "node deploy",
