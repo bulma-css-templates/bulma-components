@@ -27,8 +27,8 @@ npm run build
 
 ## Components
 
- - [admin](/src/admin.html) 
- - [blog](/src/blog.html) 
+ - [admin](/src/admin.pug) 
+ - [blog](/src/blog.pug) 
 
 --- 
 Supported by [Bulma-CSS](https://bulma-css.com/)
