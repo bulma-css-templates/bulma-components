@@ -1,15 +1,23 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Http Codes
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Http Codes elements styled with Bulma CSS")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
         .container.is-fluid
+
+            section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Http Codes elements styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/http-codes.pug") source code
+
+            hr 
 
             section.section
                 .container.has-text-centered
@@ -21,6 +29,7 @@ html(lang="en")
 
                     a.button.is-primary(href="#") Back to homepage
 
+            hr
 
             section.section
                 .container.has-text-centered
@@ -35,3 +44,8 @@ html(lang="en")
                         a.button.is-text(href="#") Enterprise
                         a.button.is-text(href="#") Support
                         a.button.is-text(href="#") ICO
+
+            hr
+
+            include components/footer.pug 
+

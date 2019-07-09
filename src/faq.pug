@@ -1,15 +1,23 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - FAQ Elements
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="FAQ Elements styled with Bulma CSS")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
         .container.is-fluid
+
+            section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle FAQ Elements styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/faq.pug") source code
+
+            hr 
 
             section.section
                 .container
@@ -46,6 +54,8 @@ html(lang="en")
                                 .media-content Why shouldn't I just store my data on a Hooli Box?
                                 .media-right
                                     img(src="placeholder/icons/chevron-circle-down.svg", alt="")
+
+            hr
 
             section.section
                 .container
@@ -94,3 +104,7 @@ html(lang="en")
 
                     .buttons.is-centered
                         a.button.is-primary(href="#") See all
+
+            hr
+
+            include components/footer.pug 

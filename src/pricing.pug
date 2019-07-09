@@ -1,19 +1,27 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Pricing components
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Pricing components styled with Bulma CSS")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
         .container.is-fluid
 
             section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Pricing components styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/pricing.pug") source code
+
+            hr 
+
+            section.section
                 .container.has-text-centered
-                    h2.title Our plans
+                    h2.title Bulma Pricing #1
 
                     hr
 
@@ -64,9 +72,11 @@ html(lang="en")
 
                             button.button.is-primary.is-outlined(type="button") Contact Sales
 
+            hr
+
             section.section
                 .container.has-text-centered
-                    h2.title Our plans
+                    h2.title Bulma Pricing #2
 
                     .columns
                         .column
@@ -92,3 +102,8 @@ html(lang="en")
                                     p.block We do everything for you, including managing your data.
                                     h4.title.is-spaced.is-5 $100 #[small Per user / monthly]
                                     button.button.is-primary.is-outlined(type="button") Contact Sales
+
+
+            hr
+
+            include components/footer.pug 

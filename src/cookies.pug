@@ -1,15 +1,23 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Cookies
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Cookies styled with Bulma CSS")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
         .container.is-fluid
+
+            section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Cookies styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/cookies.pug") source code
+
+            hr 
 
             section
                 .notification
@@ -18,8 +26,14 @@ html(lang="en")
                     p.subtitle We use cookies to personalise content, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners. If you want to change your cookie setting, please see the ‘how to reject cookies' section of our #[a(href="#") Cookie Policy]. Otherwise, if you agree to our use of cookies, please continue to use our website.
                     button.button.is-primary I accept cookies
 
+            hr
+
             section
                 .notification
                     button.delete
                     p.block We use cookies to personalise content, to&nbsp;provide social media features and to&nbsp;analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners. If you want to change your cookie setting, please see the ‘how to reject cookies' section of our #[a(href="#") Cookie Policy]. Otherwise, if you agree to our use of cookies, please continue to use our website.
                     button.button.is-primary I accept cookies
+
+            hr
+
+            include components/footer.pug 

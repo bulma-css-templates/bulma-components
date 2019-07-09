@@ -1,19 +1,28 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Team Cards
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Team Cards styled with Bulma CSS")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
         .container.is-fluid
 
             section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Team Cards styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/team.pug") source code
+
+            hr 
+
+            section.section
                 .container.has-text-centered
-                    h2.title The Pipers
+
+                    h2.title Bulma Team #1
                     p.subtitle We are the guys that made this whole thing possible
 
                     .columns
@@ -41,3 +50,7 @@ html(lang="en")
                             h5.title.is-5 Bertram Gilfoyle
                             p.subtitle.is-6 Chief Systems Architect
                             p I work on Pied Piper only for the advanced technology. I don't really like most people I work with, but they need me to put out their fires, so&nbsp;I&nbsp;stay. 
+
+            hr
+
+            include components/footer.pug 

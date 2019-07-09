@@ -1,19 +1,28 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Testimonial Cards
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Testimonial Cards styled with Bulma CSS")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
         .container.is-fluid
 
             section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Testimonial Cards styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/testimonial.pug") source code
+
+            hr 
+
+            section.section
                 .container.has-text-centered
-                    h2.title What's So Great About PiperNet?
+                
+                    h2.title Testimonial #1
 
                     .columns
                         .column
@@ -43,9 +52,12 @@ html(lang="en")
                             h5.title.is-5 Fiona
                             p.subtitle Artificial Intelligence
 
+            hr
+
             section.section
                 .container.has-text-centered
-                    h2.title What's So Great About PiperNet?
+
+                    h2.title Testimonial #2
 
                     .columns
                         .column
@@ -76,3 +88,6 @@ html(lang="en")
                             h5.title.is-5 Fiona
                             p.subtitle Artificial Intelligence
 
+            hr
+
+            include components/footer.pug 

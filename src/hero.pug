@@ -1,0 +1,43 @@
+doctype html
+html(lang="en")
+    head
+        title Bulma CSS - Hero
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="Hero styled with Bulma CSS")
+        meta(name="author" content="Bulma-Css.com")
+        link(rel="stylesheet" href="css/bulma/bulma-theme.css")
+        link(rel="icon" href="favicon.ico")
+    body
+        .container.is-fluid
+
+            section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Hero styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/hero.pug") source code
+
+            hr 
+
+            section.hero
+                .hero-body
+                    .container.has-text-centered
+                        h1.title.is-spaced The New Internet
+                        h2.subtitle Decentralized, secure, private. The PiperNet is on it's way to revolutionize every smartphone, PC, and smart-fridge near you.
+
+                        .buttons.is-centered
+                            a.control.button.is-primary(href="#") Sign up for free
+                            a.control.button.is-light(href="#") Read more
+
+            hr
+
+            section.hero
+                .hero-body
+                    .container.has-text-centered
+                        h2.subtitle The New Internet
+                        h1.title We've built a decentralized internet where information is totally free
+                        a(href="#") Read more &raquo;
+
+            hr
+
+            include components/footer.pug 

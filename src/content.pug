@@ -1,15 +1,23 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Content Elements
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Content Elements built styled with Bulma")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
         .container.is-fluid
+
+            section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Content Elements built styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/content.pug") source code
+
+            hr 
 
             section.section
                 .container.has-text-centered
@@ -18,6 +26,7 @@ html(lang="en")
 
                     p Our mission is not to outsell Hooli with a product like their latest Box 3. We are not in it for the money - we are in it to make the whole world decentralized. To give you control over your data. To change by the internet as we know it by integrating a very important feature into it - freedom.
 
+            hr
 
             section.section
                 .container.has-text-centered
@@ -29,3 +38,7 @@ html(lang="en")
                         img(src="placeholder/icons/unicorn.svg", alt="")
 
                     p Our mission is not to outsell Hooli with a product like their latest Box 3. We are not in it for the money - we are in it to make the whole world decentralized. To give you control over your data. To change by the internet as we know it by integrating a very important feature into it - freedom.
+
+            hr
+
+            include components/footer.pug 

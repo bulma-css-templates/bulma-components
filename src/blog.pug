@@ -1,11 +1,11 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Blog Elements
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Blog elements styled with Bulma")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
@@ -13,7 +13,15 @@ html(lang="en")
 
             section.section
                 .container
-                    h2.title.has-text-centered The Pied Piper Blog
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Blog Elements built styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/blog.pug") source code
+
+            hr 
+
+            section.section
+                .container
+                    h2.title.has-text-centered Bulma Blog Element - Cards
 
                     .columns
                         .column
@@ -48,9 +56,11 @@ html(lang="en")
                                         a(href="#") Why Strong Tea Isn't Good
                                     a.button.is-primary(href="#") Read more
 
+            hr 
+
             section.section
                 .container
-                    h2.title.has-text-centered The Pied Piper Blog
+                    h2.title.has-text-centered Bulma Blog Element - Cards #2
 
                     .columns.is-multiline
                         .column.is-6-tablet.is-3-desktop
@@ -104,3 +114,6 @@ html(lang="en")
                     .buttons.is-centered
                         a.button.is-primary(href="#") Read more
 
+            hr
+
+            include components/footer.pug 

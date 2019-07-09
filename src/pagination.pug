@@ -1,15 +1,23 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Pagination
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Pagination styled with Bulma CSS")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
         .container.is-fluid
+
+            section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Pagination styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/pagination.pug") source code
+
+            hr 
 
             nav
                 .container
@@ -32,6 +40,7 @@ html(lang="en")
                             li
                                 a.pagination-link(aria-label="Goto page 86") 86
 
+            hr
 
             nav
                 .container
@@ -53,3 +62,7 @@ html(lang="en")
                                 span.pagination-ellipsis &hellip;
                             li
                                 a.pagination-link(aria-label="Goto page 86") 86
+
+            hr
+
+            include components/footer.pug 

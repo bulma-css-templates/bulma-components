@@ -1,20 +1,32 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Sign-in Forms
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Sign-in Forms styled with Bulma CSS")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
         .container.is-fluid
 
             section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Sign-in Forms styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/sign-in.pug") source code
+
+            hr 
+
+            section.section
                 .container.has-text-centered
                     .columns.is-centered
+
                         .column.is-5.is-4-desktop
+
+                            h2.title Bulma Form #1
+
                             form
                                 .field
                                     .control
@@ -27,10 +39,15 @@ html(lang="en")
 
                                 a(href="#") or sign in with Facebook
 
+            hr
+
             section.section
                 .container.has-text-centered
                     .columns.is-centered
                         .column.is-5.is-4-desktop
+
+                            h2.title Bulma Form #2
+
                             form
                                 .field
                                     .control
@@ -48,3 +65,8 @@ html(lang="en")
                                         button.button.is-primary.is-fullwidth Sign up!
 
                                 p By signing in you agree with the #[a(href="") Terms and Conditions] and #[a(href="") Privacy Policy].
+
+
+            hr
+
+            include components/footer.pug 

@@ -1,21 +1,31 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Call to action
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Call to action styled with Bulma CSS")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
         .container.is-fluid
 
             section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Call to action styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/cta.pug") source code
+
+            hr 
+
+            section.section
                 .container.has-text-centered
                     h2.title.is-spaced Future of the Internet
                     p.subtitle Decentralized, secure, private. The PiperNet is on it's way to revolutionize every smartphone, PC, and smart-fridge near you.
                     a.button.is-primary(href="#") Join the Revolution!
+
+            hr
 
             section.section
                 .container.has-text-centered
@@ -38,3 +48,7 @@ html(lang="en")
                             img(src="https://bulma.dev/placeholder/logos/plucky.svg?primary=00d1b2", alt="")
                         .column
                             img(src="https://bulma.dev/placeholder/logos/1stsight.svg?primary=00d1b2", alt="")
+
+            hr
+
+            include components/footer.pug 

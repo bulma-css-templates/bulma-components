@@ -1,15 +1,23 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Features Elements
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Features Elements styled with Bulma CSS")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
         .container.is-fluid
+
+            section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Features Elements styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/features.pug") source code
+
+            hr 
 
             section.section
                 .container
@@ -32,6 +40,8 @@ html(lang="en")
                             h4.title.is-spaced.is-4 Speed
                             p.subtitle.is-6 Unimaginable transfer speed thanks to middle-out compression.
                             a(href="#") Read more
+
+            hr
 
             section.section
                 .container.has-text-centered
@@ -65,3 +75,7 @@ html(lang="en")
 
                     .buttons.is-centered
                         a.button.is-primary(href="#") Read more
+
+            hr
+
+            include components/footer.pug 

@@ -1,15 +1,23 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Admin Elements
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Admin elements styled with Bulma")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
         .container.is-fluid
+
+            section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Dashboards Elements built styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/admin.pug") source code
+
+            hr 
 
             section.section
                 .container
@@ -53,6 +61,8 @@ html(lang="en")
                                     h3.title 2,341
                                     p Used app more than once
                                     p #[img(src="placeholder/icons/level-down.svg", alt="")] 42%
+
+            hr 
 
             section.section
                 .container
@@ -100,3 +110,7 @@ html(lang="en")
                                         h3.title.is-1.has-text-info 14
                                 h4.title Appointments
                                 progress.progress.is-info(role="progressbar", value="75", max="100")
+
+            hr
+
+            include components/footer.pug 

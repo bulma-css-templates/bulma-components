@@ -1,15 +1,23 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Portfolio
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Portfolio styled with Bulma CSS")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
         .container.is-fluid
+
+            section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Portfolio styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/portfolio.pug") source code
+
+            hr 
 
             section.section
                 .container
@@ -36,6 +44,7 @@ html(lang="en")
                             h4.title.is-spaced.is-4 Client: K-Hole
                             p.subtitle We are constantly looking for new partners to migrate onto the Piper Net. The future of the internet is here - venture towards it with Pied Piper!
 
+            hr
 
             section.section
                 .container.has-text-centered
@@ -61,3 +70,9 @@ html(lang="en")
 
                     h4.title.is-spaced.is-4 Client: K-Hole
                     p.subtitle We are constantly looking for new partners to migrate onto the Piper Net. The future of the internet is here - venture towards it with Pied Piper!
+
+
+            hr
+
+            include components/footer.pug 
+

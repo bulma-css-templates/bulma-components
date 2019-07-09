@@ -1,11 +1,11 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Contact Forms
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Contact forms styled with Bulma")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
@@ -13,7 +13,15 @@ html(lang="en")
 
             section.section
                 .container
-                    h2.title.has-text-centered Contact the Pied Piper team
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Contact forms built styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/contacts.pug") source code
+
+            hr 
+
+            section.section
+                .container
+                    h2.title.has-text-centered Bulma Contact Form - Text Left
 
                     .columns
                         .column.is-6
@@ -62,9 +70,11 @@ html(lang="en")
                                     .control
                                         button.button.is-primary.is-fullwidth(type="submit") Submit
 
+            hr 
+
             section.section
                 .container
-                    h2.title.has-text-centered Contact the Pied Piper team
+                    h2.title.has-text-centered Bulma Contact Form - Image Left
 
                     .columns
                         .column.is-6
@@ -88,3 +98,7 @@ html(lang="en")
                                 .field
                                     .control
                                         button.button.is-primary.is-fullwidth(type="submit") Submit
+
+            hr
+
+            include components/footer.pug 

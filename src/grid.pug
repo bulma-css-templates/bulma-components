@@ -1,15 +1,23 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Bulma CSS - Grid
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="description" content="")
-        meta(name="author" content="")
+        meta(name="description" content="Grid styled with Bulma CSS")
+        meta(name="author" content="Bulma-Css.com")
         link(rel="stylesheet" href="css/bulma/bulma-theme.css")
         link(rel="icon" href="favicon.ico")
     body
         .container.is-fluid
+
+            section.section
+                .container
+                    h1.title.has-text-centered Bulma CSS 
+                    p.has-text-centered.subtitle Grid styled with Bulma -  
+                        a(href="https://github.com/bulma-css-templates/bulma-components/blob/master/src/grid.pug") source code
+
+            hr 
 
             section.section
                 .container.has-text-centered
@@ -20,6 +28,8 @@ html(lang="en")
                         .column
                             h4.title.is-spaced.is-4 Secure
                             p.subtitle.is-6 Nobody will be able to use your data without your consent.
+
+            hr
 
             section.section
                 .container.has-text-centered
@@ -42,3 +52,7 @@ html(lang="en")
                         .column.is-6.is-4-desktop
                             h4.title.is-spaced.is-4 Storage
                             p.subtitle.is-6 Store your data safely, and access it faster than ever.
+
+            hr
+
+            include components/footer.pug 
