@@ -18,7 +18,9 @@ Project's source files are placed in ./src/ directory.
 
 * ./src/*.pug - All your pages (templates) are stored in separated .pug files.
 
-## Installation
+<br />
+
+## How to use it
 
 ```
 # Install dependencies
@@ -30,6 +32,8 @@ $ yarn start
 # Or make production build
 yarn build
 ```
+
+<br />
 
 ## Components
 
